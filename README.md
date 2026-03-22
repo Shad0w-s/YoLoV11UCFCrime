@@ -132,18 +132,4 @@ Run from the repository root with the venv activated.
 | `outputs/figures/` | Example qualitative figures |
 | `runs_ucfcrime/` | Ultralytics training runs |
 
-## VadCLIP handoff
 
-Export from your other project a JSON file like:
-
-```json
-{
-  "roc_auc": 0.85,
-  "average_precision": 0.42,
-  "notes": "same test split as YOLO"
-}
-```
-
-Then use `merge_metrics_optional.py` to print a comparison table next to `outputs/metrics/metrics_anomaly.json`.
-
-See [`instructions.md`](instructions.md) for the full benchmark specification.
