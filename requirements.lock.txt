@@ -1,0 +1,10 @@
+# Generated from a working venv (Python 3.14, macOS arm64). Use for reproducibility.
+ultralytics==8.4.24
+torch==2.10.0
+torchvision==0.25.0
+numpy==2.4.3
+opencv-python==4.13.0.92
+pandas==3.0.1
+PyYAML==6.0.3
+scikit-learn==1.8.0
+tqdm==4.67.3

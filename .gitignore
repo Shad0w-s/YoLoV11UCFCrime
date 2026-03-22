@@ -1,0 +1,12 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+runs_ucfcrime/
+ultralytics_runs/
+*.pt
+!**/README.md
+data/processed/
+outputs/
+*.log
